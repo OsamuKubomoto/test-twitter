@@ -14,16 +14,16 @@ https://syncer.jp/twitter-api-matome
 
 3. パッケージをダウンロードしてください
 
-    cd /path/to/testapp
+    cd /path/to/test-twitter
     curl -sS https://getcomposer.org/installer | php
-    composer install
+    php composer.phar install
 
 
 ## テスト手順
 
 1. コマンドプロンプトで下記を実行してください
 
-    cd /path/to/testapp
+    cd /path/to/test-twitter/testapp
     php -S localhost:8080
 
 2. 登録したいTwitterアカウントにログインして、同じブラウザ上でlogin.phpにアクセスしてください。
